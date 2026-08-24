@@ -6,10 +6,18 @@
 
 SWAL is an open-source research lab built on the principle that digital sovereignty, private computation, and local-first software are fundamental rights. We design the infrastructure that lets autonomous AI agents build real software — on your hardware, under your rules.
 
+## Mission: information as humanity's heaviest legacy
+
+Human knowledge is the most important thing one generation can leave to the next. SWAL exists to keep that inheritance **clear, easy to preserve, easy to share, and safe from alteration** — and to pursue it through **human well-being**: technology that serves people first, reduces friction in daily work, and stays in the hands of communities rather than platforms.
+
+That is why our flagship is a memory engine and not another app:
+
+> **Xavier is the crown jewel of SWAL.** Everything else we build either feeds it, transports its data, or runs on top of it.
+
 ## The 4 Canonical Cores
 
-1. 🧠 **Agentic Memory Core (Xavier)** — Cognitive multi-tier vector store, GraphRAG, and persistent episodic knowledge for AI agents.
-2. 🌐 **P2P Data Plane (edge-mesh)** — Decentralized CRDT synchronization with post-quantum security and offline tolerance.
+1. 🧠 **Agentic Memory Core (Xavier)** — Cognitive multi-tier vector store, GraphRAG, and persistent episodic knowledge for AI agents. *The crown jewel.*
+2. 🌐 **P2P Data Plane (edge-mesh)** — The SWAL interconnection protocol: decentralized CRDT synchronization with post-quantum security, connecting nodes that persist information efficiently, securely, and at zero cost.
 3. 🤖 **Autonomous Agent Runner (Gestalt)** — Local multi-agent orchestration: coordination bus, task waves, and deterministic protocols for AI-assisted software engineering.
 4. 🎨 **Shared Design System (@swal/ui)** — Svelte 5 design system powering consistent, maintainable interfaces across every SWAL application.
 
@@ -33,6 +41,10 @@ Every SWAL project is engineered through an **AI-orchestrated pipeline** with st
 4. **Sustainability by default.** Shared libraries, reusable components, and documented resource analysis keep maintenance cost low over years, not weeks.
 
 This is the methodology behind our delivery speed — and it's what we teach in technical advisory sessions ([book one here](https://portfolio-iberi22.vercel.app/agenda)).
+
+## Research
+
+- **[photon-core](https://github.com/iberi22/photon-core)** — High-density 5D optical data encoding simulation framework (Reed-Solomon error correction over photonic voxels). Part of our long-horizon research on ultra-durable storage media for civilizational-scale preservation.
 
 ## Community
 
