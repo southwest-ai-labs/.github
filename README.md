@@ -1,57 +1,116 @@
 # SouthWest AI Labs (SWAL)
 
-**Open deep-tech research lab — local-first, privacy-first AI infrastructure.**
+**The Sovereign Intelligence Protocol — Local-First, Decentralized Agentic AI Infrastructure.**
 
-> "AI should live on YOUR device and inside community networks, not trapped in centralized corporate data centers."
+> *"Just as Bitcoin proved that digital money does not require central banks, SouthWest AI Labs proves that autonomous intelligence, memory, and software creation do not require Big Tech cloud monopolies."*
 
-SWAL is an open-source research lab built on the principle that digital sovereignty, private computation, and local-first software are fundamental rights. We design the infrastructure that lets autonomous AI agents build real software — on your hardware, under your rules.
+---
 
-## Mission: information as humanity's heaviest legacy
+## 🏛️ The Sovereign Manifesto
 
-Human knowledge is the most important thing one generation can leave to the next. SWAL exists to keep that inheritance **clear, easy to preserve, easy to share, and safe from alteration** — and to pursue it through **human well-being**: technology that serves people first, reduces friction in daily work, and stays in the hands of communities rather than platforms.
+Today's artificial intelligence ecosystem suffers from a dangerous structural flaw: **centralized cloud gatekeeping**. Every interaction, prompt, vector embedding, and autonomous agent is rented from proprietary corporate endpoints, trapping software creators in extractive subscriptions and surveilled telemetry.
 
-That is why our flagship is a memory engine and not another app:
+**SouthWest AI Labs (SWAL)** was founded on an uncompromising principle: **Digital Sovereignty is a Human Right**. 
 
-> **Xavier is the crown jewel of SWAL.** Everything else we build either feeds it, transports its data, or runs on top of it.
+We design, open-source, and deploy the foundational protocols that enable autonomous AI agents to build, verify, and run production-grade software directly on user hardware, across decentralized peer-to-peer meshes, and with mathematical integrity.
 
-## The 4 Canonical Cores
+```
+   ┌─────────────────────────────────────────────────────────────┐
+   │                  SOUTHWEST AI LABS (SWAL)                   │
+   │               Sovereign Intelligence Protocol               │
+   └──────────────────────────────┬──────────────────────────────┘
+                                  │
+         ┌────────────────────────┼────────────────────────┐
+         ▼                        ▼                        ▼
+  ┌──────────────┐         ┌──────────────┐         ┌──────────────┐
+  │ 🧠 XAVIER    │         │ 🌐 EDGE-MESH │         │ 🎨 SWAL UI   │
+  │ Sovereign    │         │ Zero-Trust   │         │ Warm Bone    │
+  │ Cognitive    │         │ P2P Mesh &   │         │ Design       │
+  │ Memory Core  │         │ CRDT Data    │         │ System       │
+  └──────┬───────┘         └──────┬───────┘         └──────┬───────┘
+         │                        │                        │
+         └────────────────────────┼────────────────────────┘
+                                  │
+               COMMERCIAL PROOF OF WORK (PoW)
+        Production SaaS Powered by the Open Protocol
+                                  │
+         ┌────────────────────────┼────────────────────────┐
+         ▼                        ▼                        ▼
+  ┌──────────────┐         ┌──────────────┐         ┌──────────────┐
+  │ 🍽️ FIZE      │         │ 📦 SHELF     │         │ 🚗 GARA-G    │
+  │ Gastronomic  │         │ Warehouse &  │         │ Automotive & │
+  │ Kitchen OS   │         │ Inventory OS │         │ Fleet OS     │
+  │ fize.swal.net│         │shelf.swal.net│         │gara-g.swal.ne│
+  └──────────────┘         └──────────────┘         └──────────────┘
+```
 
-1. 🧠 **Agentic Memory Core (Xavier)** — Cognitive multi-tier vector store, GraphRAG, and persistent episodic knowledge for AI agents. *The crown jewel.*
-2. 🌐 **P2P Data Plane (edge-mesh)** — The SWAL interconnection protocol: decentralized CRDT synchronization with post-quantum security, connecting nodes that persist information efficiently, securely, and at zero cost.
-3. 🤖 **Autonomous Agent Runner (Gestalt)** — Local multi-agent orchestration: coordination bus, task waves, and deterministic protocols for AI-assisted software engineering.
-4. 🎨 **Shared Design System (@swal/ui)** — Svelte 5 design system powering consistent, maintainable interfaces across every SWAL application.
+---
 
-## What we actually ship
+## 🧩 The Open-Source Protocol Cores (FOSS)
 
-These cores aren't just experiments — they power production systems in daily use:
+The infrastructure layer of SWAL is 100% Free and Open Source Software (FOSS), auditable by anyone in the world:
 
-- **ManteniApp** — Industrial field-service SaaS co-operated with tripro.cl (Chile)
-- **SaberParaTodos** — Free practice-testing platform for students in 16+ countries
-- **Shelf** — Offline-first POS & inventory with P2P CRDT sync
+| Core | Repository | Description | License |
+| :--- | :--- | :--- | :--- |
+| **🧠 Xavier** | [`iberi22/xavier`](https://github.com/iberi22/xavier) | **Sovereign Cognitive Memory Engine.** Ultra-fast Rust vector store, AST code-graph analysis, and persistent episodic memory for multi-agent systems. Zero cloud dependency. | MIT / Apache 2.0 |
+| **🌐 Edge-Mesh** | [`iberi22/edge-mesh`](https://github.com/iberi22/edge-mesh) | **Zero-Trust P2P Data Plane.** Decentralized WebRTC transport, Yjs CRDT real-time multi-node synchronization, and Post-Quantum Cryptography (ML-KEM-768). | MIT / Apache 2.0 |
+| **🎨 SWAL UI** | [`iberi22/swal-ui`](https://github.com/iberi22/swal-ui) | **Design System.** Bone Warm Minimalist design language built natively for Astro & Svelte 5, engineered for sub-millisecond rendering and cognitive calm. | MIT / Apache 2.0 |
+| **🤖 Gestalt** | [`iberi22/gestalt-rust`](https://github.com/iberi22/gestalt-rust) | **Autonomous Agent Orchestrator.** Multi-agent coordination bus, task wave execution, and deterministic quality gates for autonomous engineering. | MIT / Apache 2.0 |
 
-Full project index: [iberi22](https://github.com/iberi22)
+---
 
-## How we work: the Process IS the Product
+## ⚡ Commercial Proof of Work (PoW)
 
-Every SWAL project is engineered through an **AI-orchestrated pipeline** with strict human-owned protocols:
+A protocol without real-world execution is just academic theory. In Bitcoin, miners validate transactions through cryptographic work. In SWAL, our open protocol is proven through **three mission-critical, production-deployed commercial SaaS applications**:
 
-1. **One issue → one branch → one PR.** Atomic, reviewable changes.
-2. **Verifiable acceptance criteria.** Every PR passes CI: unit + E2E tests, no speculation.
-3. **Human-defined architecture.** Agents implement; humans own design decisions and merge rights.
-4. **Sustainability by default.** Shared libraries, reusable components, and documented resource analysis keep maintenance cost low over years, not weeks.
+### 1. 🍽️ Fize — Gastronomic POS & Kitchen Operating System
+* **Production URL:** [https://fize.swal.network](https://fize.swal.network)
+* **Architecture:** Offline-first Astro SSR + Cloudflare Worker edge execution + real-time Kitchen Display System (KDS) + zero-commission WhatsApp ordering gateway.
+* **Protocol Integration:** Runs Edge-Mesh CRDT synchronization between POS terminals and kitchen screens with zero internet dependency.
 
-This is the methodology behind our delivery speed — and it's what we teach in technical advisory sessions ([book one here](https://portfolio-iberi22.vercel.app/agenda)).
+### 2. 📦 Shelf — Decentralized Warehouse & Inventory OS
+* **Production URL:** [https://shelf.swal.network](https://shelf.swal.network)
+* **Architecture:** React 19 + Svelte PWA + on-device WebLLM inference + camera barcode scanning + cross-origin security isolation (COOP/COEP).
+* **Protocol Integration:** Multi-device P2P stock ledger synchronization over Edge-Mesh; autonomous inventory anomaly detection powered by Xavier memory.
 
-## Research
+### 3. 🚗 Gara-G — Automotive Fleet & Workshop Management OS
+* **Production URL:** [https://gara-g.swal.network](https://gara-g.swal.network)
+* **Architecture:** Cloudflare Workers SSR + serverless relational D1 SQL database + encrypted R2 document vault + Three.js 3D vehicle visualizer.
+* **Protocol Integration:** Telemetry ingestion, preventive maintenance forecasting, and deterministic workshop ticket routing.
 
-- **[photon-core](https://github.com/iberi22/photon-core)** — High-density 5D optical data encoding simulation framework (Reed-Solomon error correction over photonic voxels). Part of our long-horizon research on ultra-durable storage media for civilizational-scale preservation.
+---
 
-## Community
+## 🔐 Code-Audit Protocol for Recruiters, Partners & Investors
 
-- **Lab site:** [southwest-ai-labs.github.io](https://southwest-ai-labs.github.io)
-- **Founder:** [Brahyan Belalcázar (@iberi22)](https://github.com/iberi22)
-- **Contact:** iberi22@gmail.com · [@BeRi0n3](https://t.me/BeRi0n3)
+To prevent unauthorized corporate cloning and safeguard multi-tenant proprietary configurations, the commercial application repositories (`hosteler-ia`, `shelf`, `gara-g`) are maintained as **private repositories**.
 
-## Licensing
+However, true to our ethos of transparency and mathematical verification, **we grant full code access to verified technical recruiters, prospective clients, and investors:**
 
-Community apps are AGPL-3.0. Shared client libraries are MIT. Business cores remain private until their public milestone.
+* **Deterministic Verification:** Every application compiles cleanly with zero unverified assumptions, achieves 100% local CI test passage, and adheres to strict GitCore 3.8 / Karpathy engineering standards.
+* **Request Access:** To request instant GitHub collaborator access to inspect our full source code, test suites, and internal commit history:
+  * 📧 **Email:** [iberi22@gmail.com](mailto:iberi22@gmail.com)
+  * 💬 **Telegram:** [@BeRi0n3](https://t.me/BeRi0n3)
+  * 🌐 **Institutional Portal:** [https://swal.network](https://swal.network)
+
+---
+
+## 🏛️ Engineering Philosophy: "The Process IS the Product"
+
+Every repository in the SouthWest AI Labs ecosystem adheres to a rigorous, anti-hallucination engineering framework:
+
+1. **Local-First & Resource-Attributed:** If it cannot run offline on consumer hardware, it is not sovereign. We prioritize local execution and $0 cloud maintenance debt.
+2. **Deterministic Anti-Hallucination:** Strict separation between prompt generation and deterministic execution. Code is verified via AST parsing, type checkers, and real compiler exit codes (`exit code 0`).
+3. **Atomic Wave Cycles:** One issue → one isolated branch → one comprehensive test suite → verified PR merge.
+4. **Post-Quantum Future-Proofing:** All peer identities and encrypted vaults implement post-quantum cryptographic primitives (ML-KEM / Kyber).
+
+---
+
+## 🌍 Connect With the Lab
+
+* **Official Portal:** [swal.network](https://swal.network)
+* **Founder & Chief Architect:** Brahyan Belalcázar ([@iberi22](https://github.com/iberi22))
+* **Xavier Protocol Docs:** [xavier.swal.network](https://xavier.swal.network)
+* **Status & Telemetry:** [ops.swal.network](https://ops.swal.network)
+
+---
+*© 2026 SouthWest AI Labs (SWAL). Decentralized, Sovereign, Uncompromising.*
