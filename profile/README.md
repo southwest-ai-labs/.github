@@ -52,10 +52,11 @@ The infrastructure layer of SWAL is 100% Free and Open Source Software (FOSS), a
 
 | Core | Repository | Description | License |
 | :--- | :--- | :--- | :--- |
-| **🧠 Xavier** | [`iberi22/xavier`](https://github.com/iberi22/xavier) | **Sovereign Cognitive Memory Engine.** Ultra-fast Rust vector store, AST code-graph analysis, and persistent episodic memory for multi-agent systems. Zero cloud dependency. | MIT / Apache 2.0 |
-| **🌐 Edge-Mesh** | [`iberi22/edge-mesh`](https://github.com/iberi22/edge-mesh) | **Zero-Trust P2P Data Plane.** Decentralized WebRTC transport, Yjs CRDT real-time multi-node synchronization, and Post-Quantum Cryptography (ML-KEM-768). | MIT / Apache 2.0 |
-| **🎨 SWAL UI** | [`iberi22/swal-ui`](https://github.com/iberi22/swal-ui) | **Design System.** Bone Warm Minimalist design language built natively for Astro & Svelte 5, engineered for sub-millisecond rendering and cognitive calm. | MIT / Apache 2.0 |
-| **🤖 Gestalt** | [`iberi22/gestalt-rust`](https://github.com/iberi22/gestalt-rust) | **Autonomous Agent Orchestrator.** Multi-agent coordination bus, task wave execution, and deterministic quality gates for autonomous engineering. | MIT / Apache 2.0 |
+| **🧠 Xavier** | [`southwest-ai-labs/xavier`](https://github.com/southwest-ai-labs/xavier) | **Sovereign Cognitive Memory Engine.** Ultra-fast Rust vector store, AST code-graph analysis, and persistent episodic memory for multi-agent systems. Zero cloud dependency. | AGPL-3.0 / Commercial |
+| **🌐 Edge-Mesh** | [`southwest-ai-labs/edge-mesh`](https://github.com/southwest-ai-labs/edge-mesh) | **Zero-Trust P2P Data Plane.** Decentralized WebRTC transport, Yjs CRDT real-time multi-node synchronization, and Post-Quantum Cryptography (ML-KEM-768). | Apache 2.0 |
+| **🎨 SWAL UI** | [`southwest-ai-labs/swal-ui`](https://github.com/southwest-ai-labs/swal-ui) | **Design System.** Bone Warm Minimalist design language built natively for Astro & Svelte 5, engineered for sub-millisecond rendering and cognitive calm. | Apache 2.0 |
+| **🤖 Gestalt** | [`southwest-ai-labs/gestalt`](https://github.com/southwest-ai-labs/gestalt) | **Autonomous Agent Orchestrator.** Multi-agent coordination bus, task wave execution, and deterministic quality gates for autonomous engineering. | Apache 2.0 |
+| **🔐 SWAL Vault** | [`southwest-ai-labs/swal-vault-core`](https://github.com/southwest-ai-labs/swal-vault-core) | **Cryptographic Sovereign Vault.** Pure WebCrypto zero-knowledge client-side encrypted backup vault (`XCB1`), Shamir secret sharing (2/3), and local key custody. | Apache 2.0 |
 
 ---
 
